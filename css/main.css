@@ -14,30 +14,29 @@ a {
 }
 
 #wrapper {
+    position: relative;
     max-width: 940px;
     margin: 0 auto;
     padding: 0 5%;
     position: relative;
+    z-index: 1;
 }
 
 img {
     max-width: 100%;
 }
 
-h3 {
-    margin: 0 0 1em 0;
-}
-
-
 
 /*****************************************************
 HEADING
 ******************************************************/
 header {
+    position: relative;
     float: left;
     margin: 0 0 30px 0;
     padding: 5px 0 0 0;
     width: 100%;
+    z-index: 1000;
 }
 
 #logo { 
@@ -104,8 +103,6 @@ section {
     width: 100%;
 }
 
-
-
 #gallery {
     display: flex;
     justify-content: space-between;
@@ -117,16 +114,14 @@ section {
 }
 
 #gallery li {
+    padding: 0 0 60px 0;
     width: 45%;
-    background-color: #ABEDE7;
-    color: #4A4848;
     border-radius: 5px;
-    overflow: none;
-    box-shadow: 0px 4px 8px rgb(134, 131, 131);
+    box-shadow: 0px 4px 8px rgb(110, 72, 73);
     margin-bottom: 20px;
+    background-color: #fff;
     overflow: hidden;   
 }
-
 
 #gallery li a p {
     text-align: center;
@@ -138,7 +133,15 @@ section {
     font-weight: bold;
 }
 
+/* Dog names in the gallery */
+.name {
+    text-align: center;
+    font-size: 1.5em;
+}
 
+.name h3 {
+    margin: 12px 0 0 0;
+}
 
 /*****************************************************
 COLORS
@@ -146,7 +149,7 @@ COLORS
 
 /* site body */
 body {
-    background-color: #fff;
+    background-color: #FE6163;
     color: #fff;
     overflow: hidden;
 }
@@ -168,10 +171,13 @@ h1, h2 {
 
 /* links (photos) */
 a {
-    color: #999;
+    color: rgb(93, 99, 99);
+
 }
 
 nav a {
     color: #fff;
 }
+
+
 
