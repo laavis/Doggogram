@@ -1,0 +1,58 @@
+@media screen and (min-width: 480px) {
+/*****************************************************
+TWO COLUMN LAYOUT
+******************************************************/
+        header {
+            
+        }
+
+/*****************************************************
+PAGE: GALLERY
+******************************************************/
+    #gallery li {
+        width: 23.3333%
+    }
+
+    #gallery li:nth-child(4) {
+        clear: left;
+    }
+}
+
+
+
+@media screen and (min-width: 660px) {
+/*****************************************************
+    THREE COLUMN LAYOUT
+******************************************************/
+
+        nav {
+            background: none;
+            float: right;
+            font-size: 1.125em;
+            text-align: right;
+            width: 45%;
+        }
+
+        #logo {
+            float: left;
+            margin-left: 5%;
+            text-align: left;
+            width: 45%;
+            height: 500px;
+        }
+
+        h1 {
+            font-size: 3.5em;
+        }
+
+        h2 {
+            font-size: 0.825em;
+            margin-bottom: 30px;
+        }
+
+        header {
+            -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 60%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 60%);
+        }
+
+    }
