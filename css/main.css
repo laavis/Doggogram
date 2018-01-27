@@ -1,6 +1,9 @@
 /*****************************************************
 GENERAL
 ******************************************************/
+html {
+    overflow: scroll;
+}
 
 body {
     font-family: 'Quicksand', sans-serif;
@@ -14,6 +17,7 @@ a {
     max-width: 940px;
     margin: 0 auto;
     padding: 0 5%;
+    position: relative;
 }
 
 img {
@@ -96,19 +100,33 @@ footer {
 PAGE GALLERY
 ******************************************************/
 
+section {
+    width: 100%;
+}
+
+
+
 #gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
+    width: 100%;
     list-style: none;
 }
 
 #gallery li {
-    float: left;
     width: 45%;
-    margin: 2.5%;
     background-color: #ABEDE7;
     color: #4A4848;
+    border-radius: 5px;
+    overflow: none;
+    box-shadow: 0px 4px 8px rgb(134, 131, 131);
+    margin-bottom: 20px;
+    overflow: hidden;   
 }
+
 
 #gallery li a p {
     text-align: center;
@@ -122,8 +140,6 @@ PAGE GALLERY
 
 
 
-
-
 /*****************************************************
 COLORS
 ******************************************************/
@@ -132,6 +148,7 @@ COLORS
 body {
     background-color: #fff;
     color: #fff;
+    overflow: hidden;
 }
 
 /* Header color */

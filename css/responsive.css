@@ -3,7 +3,7 @@
 TWO COLUMN LAYOUT
 ******************************************************/
         header {
-            
+
         }
 
 /*****************************************************
@@ -24,7 +24,9 @@ PAGE: GALLERY
 /*****************************************************
     THREE COLUMN LAYOUT
 ******************************************************/
-
+        body {
+            background-color: #F0E8E6;
+        }
         nav {
             background: none;
             float: right;
@@ -38,21 +40,28 @@ PAGE: GALLERY
             margin-left: 5%;
             text-align: left;
             width: 45%;
-            height: 500px;
         }
 
-        h1 {
+        header h1 {
             font-size: 3.5em;
         }
 
-        h2 {
+        header h2 {
             font-size: 0.825em;
             margin-bottom: 30px;
         }
 
-        header {
-            -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 60%);
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 60%);
-        }
+        /* header {
+            clip-path: polygon(
+              0 0,   left top 
+              100% 0, right top
+              100% 100%,  right bottom 
+              0 calc(100% - 12vw) left bottom 
+            );
+          } */
+        
+          header {
+              margin-bottom: 60px;
+          }
 
     }
