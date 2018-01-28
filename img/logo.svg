@@ -1,0 +1,96 @@
+<svg width="491" height="422" viewBox="0 0 491 422" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>logo</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(2113 2495)">
+<g id="logo">
+<g id="Rectangle 2">
+<use xlink:href="#path0_fill" transform="translate(-2078 -2474)" fill="#4DB6AC"/>
+</g>
+<g id="Logo">
+<g id="Vector 4">
+<use xlink:href="#path1_fill" transform="translate(-1990.25 -2495)" fill="#4DB6AC"/>
+<mask id="mask0_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(-1990.25 -2495)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(-1990.25 -2495)" fill="#4DB6AC"/>
+</g>
+</g>
+<g id="Rectangle 3" filter="url(#filter0_d)">
+<use xlink:href="#path3_fill" transform="translate(-2111 -2443)" fill="#FE6163"/>
+</g>
+<g id="Rectangle 3.1">
+<use xlink:href="#path4_fill" transform="translate(-2111 -2443)" fill="#4DB6AC"/>
+</g>
+<g id="Line">
+<use xlink:href="#path5_stroke" transform="translate(-2111 -2316)" fill="#FFFFFF"/>
+</g>
+<g id="Line">
+<use xlink:href="#path5_stroke" transform="translate(-1764 -2316)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse 2">
+<use xlink:href="#path6_fill" transform="translate(-1990 -2378)" fill="#FE6163"/>
+</g>
+<g id="Group 2" filter="url(#filter1_i)">
+<g id="Ellipse 2">
+<use xlink:href="#path7_fill" transform="translate(-1951 -2306)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse 2.1">
+<use xlink:href="#path7_fill" transform="translate(-1951 -2265.09)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse 2.2">
+<use xlink:href="#path7_fill" transform="translate(-1837.6 -2306)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse 2.3">
+<use xlink:href="#path7_fill" transform="translate(-1837.6 -2265.09)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 4">
+<use xlink:href="#path8_fill" transform="translate(-1923 -2275)" fill="#FFFFFF"/>
+<use xlink:href="#path9_stroke" transform="translate(-1923 -2275)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Ellipse">
+<mask id="mask1_outline_ins">
+<use xlink:href="#path10_fill" fill="white" transform="translate(-2013 -2404)"/>
+</mask>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path11_stroke_2x" transform="translate(-2013 -2404)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="-2113" y="-2445" width="491" height="372" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="2" dy="2"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<filter id="filter1_i" filterUnits="userSpaceOnUse" x="-1951" y="-2306" width="165" height="92" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0" result="hardAlpha"/>
+<feOffset dx="2" dy="2"/>
+<feGaussianBlur stdDeviation="5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
+</filter>
+<path id="path0_fill" d="M 0 0L 70 0L 70 70L 0 70L 0 0Z"/>
+<path id="path1_fill" d="M 46.9583 0L 0 69.3333L 241.5 69.3333L 194.542 0L 46.9583 0Z"/>
+<path id="path2_stroke_2x" d="M 0 69.3333L -0.827971 68.7726L -1.88506 70.3333L 0 70.3333L 0 69.3333ZM 46.9583 0L 46.9583 -1L 46.4278 -1L 46.1304 -0.560771L 46.9583 0ZM 194.542 0L 195.37 -0.560771L 195.072 -1L 194.542 -1L 194.542 0ZM 241.5 69.3333L 241.5 70.3333L 243.385 70.3333L 242.328 68.7726L 241.5 69.3333ZM 0.827971 69.8941L 47.7863 0.560771L 46.1304 -0.560771L -0.827971 68.7726L 0.827971 69.8941ZM 46.9583 1L 194.542 1L 194.542 -1L 46.9583 -1L 46.9583 1ZM 193.714 0.560771L 240.672 69.8941L 242.328 68.7726L 195.37 -0.560771L 193.714 0.560771ZM 241.5 68.3333L 0 68.3333L 0 70.3333L 241.5 70.3333L 241.5 68.3333Z"/>
+<path id="path3_fill" d="M 0 15C 0 6.71573 6.71573 0 15 0L 473 0C 478.523 0 483 4.47715 483 10L 483 354C 483 359.523 478.523 364 473 364L 9.99999 364C 4.47714 364 0 359.523 0 354L 0 15Z"/>
+<path id="path4_fill" d="M 0 10C 0 4.47715 4.47715 0 10 0L 473 0C 478.523 0 483 4.47715 483 10L 483 112L 0 112L 0 10Z"/>
+<path id="path5_stroke" d="M 0 0L 136 0L 136 -20L 0 -20L 0 0Z"/>
+<path id="path6_fill" d="M 234 117C 234 181.617 181.617 234 117 234C 52.3827 234 0 181.617 0 117C 0 52.3827 52.3827 0 117 0C 181.617 0 234 52.3827 234 117Z"/>
+<path id="path7_fill" d="M 48.6 24.5455C 48.6 38.1015 37.7205 49.0909 24.3 49.0909C 10.8795 49.0909 0 38.1015 0 24.5455C 0 10.9894 10.8795 0 24.3 0C 37.7205 0 48.6 10.9894 48.6 24.5455Z"/>
+<path id="path8_fill" d="M 0 0L 105.652 0L 105.652 28.3217L 0 28.3217L 0 0Z"/>
+<path id="path9_stroke" d="M 0 0L 0 -2L -2 -2L -2 0L 0 0ZM 105.652 0L 107.652 0L 107.652 -2L 105.652 -2L 105.652 0ZM 105.652 28.3217L 105.652 30.3217L 107.652 30.3217L 107.652 28.3217L 105.652 28.3217ZM 0 28.3217L -2 28.3217L -2 30.3217L 0 30.3217L 0 28.3217ZM 0 2L 105.652 2L 105.652 -2L 0 -2L 0 2ZM 103.652 0L 103.652 28.3217L 107.652 28.3217L 107.652 0L 103.652 0ZM 105.652 26.3217L 0 26.3217L 0 30.3217L 105.652 30.3217L 105.652 26.3217ZM 2 28.3217L 2 0L -2 0L -2 28.3217L 2 28.3217Z"/>
+<path id="path10_fill" d="M 286 143C 286 221.977 221.977 286 143 286C 64.0233 286 0 221.977 0 143C 0 64.0233 64.0233 0 143 0C 221.977 0 286 64.0233 286 143Z"/>
+<path id="path11_stroke_2x" d="M 256 143C 256 205.408 205.408 256 143 256L 143 316C 238.545 316 316 238.545 316 143L 256 143ZM 143 256C 80.5918 256 30 205.408 30 143L -30 143C -30 238.545 47.4547 316 143 316L 143 256ZM 30 143C 30 80.5918 80.5918 30 143 30L 143 -30C 47.4547 -30 -30 47.4547 -30 143L 30 143ZM 143 30C 205.408 30 256 80.5918 256 143L 316 143C 316 47.4547 238.545 -30 143 -30L 143 30Z"/>
+</defs>
+</svg>
