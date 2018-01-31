@@ -1,0 +1,21 @@
+<svg width="87" height="69" viewBox="0 0 87 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>community-icon</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-953 4281)">
+<g id="community-icon">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(953 -4259.15)" fill="#FFFFFF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(999.934 -4259.15)" fill="#FFFFFF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(967.882 -4281)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 19.6401 47.15L 0 11.7875L 3.92802 11.7875L 9.42724 0L 14.9265 11.7875L 25.1393 11.7875L 30.6385 0L 35.745 11.7875L 40.0658 11.7875L 19.6401 47.15Z"/>
+<path id="path1_fill" d="M 28.6184 69L 0 17.25L 5.72368 17.25L 13.7368 0L 21.75 17.25L 36.6316 17.25L 44.6447 0L 52.0855 17.25L 58.3816 17.25L 28.6184 69Z"/>
+</defs>
+</svg>

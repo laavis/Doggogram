@@ -1,0 +1,280 @@
+/*****************************************************
+GENERAL
+******************************************************/
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+}
+.home {
+    background-color: #FE6163; 
+}
+
+.gallery {
+    background-color: #EFEBE9;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 3.5em;
+    font-weight: normal;
+
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2em;
+    color: #706865;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+#topline {
+    height: 8px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #4DB6AC;
+}
+
+
+
+
+/*****************************************************
+HEADING
+******************************************************/
+header {
+    position: relative;
+    padding: 0 0 70px 0;
+    height: 127px;
+    background-color: #EFEBE9;
+
+}
+
+#logo h1{
+    font-size: 3.75em;
+    float: left;
+    margin: 0 0 0 2%;
+}
+
+#logo-image {
+    float: left;
+    width: 3em;
+    margin: 22px 0 0 5px;
+}
+
+#toggle {
+    display: none;
+}
+
+
+/*****************************************************
+NAVIGATION
+******************************************************/
+
+nav {
+    background: none;
+    float: right;
+    text-align: center;
+    padding: 10px 0;
+    margin: -177px 0 0 0;
+    z-index: 200;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0 50px 0 0;
+
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-weight: 800;
+    padding: 15px 10px;
+}
+
+nav a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 8px;
+    left: 0;
+    background-color: #4DB6AC;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+nav a:hover:before{
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+
+
+/*****************************************************
+FOOTER
+******************************************************/
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer p {
+    color: #fff;
+}
+
+/*****************************************************
+PAGE HOME
+******************************************************/
+#slogan {
+    padding: 0 0 100px 0;
+    width: 100%;
+    background-color: #EFEBE9;
+}
+
+#slogan h2 {
+    text-align: center;
+    font-size: 3.5em;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+}
+
+#slogan p {
+    margin: 10px auto;
+    text-align: center;
+    font-size: 2em;
+    color: #A69B97;
+    width: 450px;
+}
+
+.feature-container {
+    margin: 0 auto;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 7em;
+}
+
+.feature-container > div {
+    padding: 3em 1em 1em 1em;
+
+}
+
+.feature-container h3 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.7em;
+    color: #fff;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+    margin: 40px 0 5px 0;
+}
+
+.feature-container p {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 200;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.feature-container img {
+    display: block;
+    margin: 0 auto;
+}
+
+/*****************************************************
+PAGE GALLERY
+******************************************************/
+.gallery-container * {
+    box-sizing: border-box
+}
+.gallery-container {
+    display: grid;
+    width: 60%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    text-align: center;
+    margin: 50px auto;
+    
+    
+}
+.gallery-container img {
+    vertical-align: middle;  
+    border-radius: 5px 5px 0 0;
+}
+
+.gallery-container div {
+    box-shadow: 0px 2px 4px rgba(34, 32, 32, 0.18);
+}
+
+.gallery-container h3 {
+    background-color: #4DB6AC;
+}
+
+
+
+/*****************************************************
+GALLERY HOVER EFFECTS
+******************************************************/
+
+
+/*****************************************************
+COLORS
+******************************************************/
+/* logo text */
+h1 {
+    color: #FE6163;
+}
+
+h3 {
+    color: #ffcecc;
+}
+
+nav a {
+    color: #a69b97;
+    text-decoration: none;
+    position: relative;
+}
+
+nav a nav a:visited {
+    color: #fff;
+}
+
+nav a:hover {
+    width: 100%;
+    color: #4DB6AC;
+    
+  }
+
+nav a.selected {
+    color: #4DB6AC;
+}
+
+
+
+

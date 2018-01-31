@@ -3,17 +3,16 @@
 /*****************************************************
 HEADER
 ******************************************************/
-    #logo {
-        width: 50%;
-        margin: 10px 0 0 20px;
-    }
+
     
     #logo h1 {
         font-size: 3em;
+        margin: 25px 0 0 40px;
     }
 
-    #logo img {
-        width: 30px;
+    #logo-image {
+        width: 2.7em;
+        margin-top: 40px;
     }
 
     nav {
@@ -52,22 +51,66 @@ HEADER
     header {
        background: none;
        box-shadow: none;
+       margin: 0;
+       height: 80px;
     }
 
     #topline {
         display: none;
     }
-    
+
     #logo {
-        float: none;
-        text-align: center;
-        width: 100%;
+        display: block;
         margin: 0 auto;
+        width: 220px;
+        height: 51px;
     }
 
     #logo h1 {
+        font-size: 2em;
+        margin: 7px 0 0 0;
         color: #fff;
     }
+
+    #logo-image {
+        margin-top: 18px;
+        width: 1.7em;
+        content: url("../img/logo-mobile.svg");
+    }
+
+/*****************************************************
+PAGE GALLERY
+******************************************************/
+    #gallery {
+        justify-content: space-evenly;
+        padding: 2% 5%;
+    }
+
+    #gallery-text {
+        font-size: 1em;
+        color: #ffcecc;
+    }
+    #gallery li {
+        width: 40%;
+    }
+
+    #gallery h3 {
+        color: #4DB6AC;
+    }
+    #gallery li a p {
+        color: #4DB6AC;
+    }
+
+    #gallery li:nth-child(4n) {
+        clear: left;
+    }
+
+    .overlay {
+        background-color: #d7ccc8;
+    }
+
+
+
 
 /*****************************************************
 MOBILE DEVICES NAV
@@ -100,15 +143,13 @@ MOBILE DEVICES NAV
         display: block;
         position: absolute;
         top: 20px;
-        left: 20px;
+        left: 15px;
         
-        z-index: 1;
+        z-index: 100;
         
         -webkit-user-select: none;
         user-select: none;
     }
-
-
 
     #menuToggle input {
         display: block;
@@ -136,7 +177,7 @@ MOBILE DEVICES NAV
         background: #fff;
         border-radius: 3px;
         
-        z-index: 11;
+        z-index: 110;
         
         transform-origin: 4px 0px;
         
@@ -178,11 +219,13 @@ MOBILE DEVICES NAV
         transform: rotate(-45deg) translate(0, -1px);
     }
 
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
+    /*
+    * Make this absolute positioned
+    * at the top left of the screen
+    */
     #menu {
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.20);
+        z-index: 105;
         position: absolute;
         width: 160px;
         margin: -100px 0 0 -50px;
@@ -193,7 +236,7 @@ MOBILE DEVICES NAV
         list-style-type: none;
         -webkit-font-smoothing: antialiased;
         /* to stop flickering of text in safari */
-        
+
         transform-origin: 0% 0%;
         transform: translate(-100%, 0);
         
@@ -207,22 +250,46 @@ MOBILE DEVICES NAV
         font-size: 22px;
     }
 
-/*
- * And let's slide it in from the left
- */
+    /*
+    * Sliding menu to the left
+    */
     #menuToggle input:checked ~ ul {
         transform: none;
     }
 
-    .darken {
-        opacity:    0.5; 
-        background: #000; 
+/*****************************************************
+DARKEN BACKGROUND WHEN NAVIGATION IS OPENED
+******************************************************/
+
+    input[type=checkbox]:checked ~ label ~ .darken {
+        opacity:    0.7; 
+        background: rgb(29, 27, 27); 
         width:      100%;
         height:     100%; 
         z-index:    10;
         top:        0; 
         left:       0; 
         position:   fixed; 
+        transition: 0.5s;
     }
 
+    input[type=checkbox]:not(:checked) ~ label ~ .darken {
+        opacity:    0.7; 
+        background: none; 
+        width:      100%;
+        height:     100%; 
+        z-index:    10;
+        top:        0; 
+        left:       0; 
+        position:   fixed; 
+        transition: 1s;
+
+        /* Hide the element when checkbox is unchecked so it doesn't get on my way when inspecting elements */
+        visibility: hidden;
+    }
 }
+/*****************************************************
+DARKEN BACKGROUND WHEN NAVIGATION IS OPENED
+******************************************************/
+
+

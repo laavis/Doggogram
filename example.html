@@ -1,68 +1,162 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>laavis</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Bungee|Open+Sans rel='stylesheet' type= 'text/css'>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <meta name="viewport" content="width=device-width, inital scale=1.0">
-  </head>
-  <body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>DOGGOGRAM</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Quicksand" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+        <link rel="stylesheet" href="css/main-alternative.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+<body>
     <header>
-      <a href="index.html" id="logo">
-        <h1>LAAVIS</h1>
-        <h2>Overall Slacker</h2>
-      </a>
-      <nav>
-        <ul>
-          <li><a href="index.html" class="selected">Portfolio</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+        <div id="topline"> </div> 
+        <a href="index.html" id="logo">
+            <h1>POOHCBAND</h1><div id="logo-image"><img src="img/logo-light.svg" alt="logo"></div>
+        </a>
     </header>
-    <div id="wrapper">
-        <section>
+    <div id=nav-container>
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" name="checkbox" id="toggle"/>
+                <label for="toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                </label>
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html" class="selected">Gallery</a></li>
+                    <li><a href="mydoggos.html">My Doggos</a></li>
+                </ul>
+                <div class="darken">
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id="wrapper"></div>
+            <div id="gallery-text">
+                <h2>GALLERY</h2>
+            </div>
             <ul id="gallery">
-                <li>
-                    <a href="img/numbers-01.jpg">
-                        <img src="img/numbers-01.jpg" alt="">
-                        <p>Doing my thing as always. Took a while to do this.</p>
-                    </a>
-                </li> 
-                <li>
-                    <a href="img/numbers-02.jpg">
-                        <img src="img/numbers-02.jpg" alt="">
-                        <p>Playing with blending modes in Photoshop</p>
+                <li class="container">
+                        <a href="img/doggo.png">
+                            <img src="img/doggo.png" alt="" class="image">
+                            <div class="overlay">
+                            <div class="name"><h3>Preston</h3></div> 
+                            <div class="description"><p>Top tier ball fetcher and mud-roller. Loves to play outside with his friends.</p></div>                          
+                        </a>
+                    </div>
+                </li>
+                <li class="container">
+                        <a href="img/doggo.png">
+                            <img src="img/doggo.png" alt="" class="image">
+                            <div class="overlay">
+                            <div class="name"><h3>Gerbert</h3></div> 
+                            <div class="description"><p>Awesome companion when hiking outdoors. Loves to bring you stuff he finds.</p></div>                          
+                        </a>
+                    </div>
+                </li>
+
+                <li class="container">
+                    <a href="img/doggo.png">
+                        <img src="img/doggo.png" alt="" class="image">
+                        <div class="overlay">
+                            <div class="name"><h3>Rita</h3></div> 
+                            <div class="description"><p>This lady loves long walks in the park. Except when it's raining, then she won't leave the house.</p></div>
+                        </div>   
                     </a>
                 </li>
-                <li>
-                    <a href="img/numbers-06.jpg">
-                        <img src="img/numbers-06.jpg" alt="">
-                        <p>Tried to create something cool. Failed miserably</p>
+
+                <li class="container">
+                    <a href="img/doggo.png">
+                        <img src="img/doggo.png" alt="" class="image">
+                        <div class="overlay">
+                            <div class="name"><h3>Kieran</h3></div> 
+                            <div class="description"><p>This gentleman charms you with his big brown eyes and constantly waggling tail.</p></div>
+                        </div>   
                     </a>
                 </li>
-                <li>
-                    <a href="img/numbers-09.jpg">
-                        <img src="img/numbers-09.jpg" alt="">
-                        <p>Drips created using my own tears of depression.</p>
+                <li class="container">
+                        <a href="img/doggo.png">
+                            <img src="img/doggo.png" alt="" class="image">
+                            <div class="overlay">
+                            <div class="name"><h3>Mr. Mandarin</h3></div> 
+                            <div class="description"><p>Hope you like wet kisses because that's what you're going to get.</p></div>                          
+                        </a>
+                    </div>
+                </li>
+                <li class="container">
+                        <a href="img/doggo.png">
+                            <img src="img/doggo.png" alt="" class="image">
+                            <div class="overlay">
+                            <div class="name"><h3>Helga</h3></div> 
+                            <div class="description"><p>Here comes the hunter's best friend! Shoot the birb, she fetch the birb.</p></div>                          
+                        </a>
+                    </div>
+                </li>
+                <li class="container">
+                    <a href="img/doggo.png">
+                        <img src="img/doggo.png" alt="" class="image">
+                        <div class="overlay">
+                            <div class="name"><h3>Musse</h3></div> 
+                            <div class="description"><p>Don't leave your shoes hanging around when this guy visits. You're not getting them back intact</p></div>
+                        </div>   
                     </a>
                 </li>
-                <li>
-                    <a href="img/numbers-12.jpg">
-                        <img src="img/numbers-12.jpg" alt="">
-                        <p>Internal bleeding.</p>
+
+                <li class="container">
+                    <a href="img/doggo.png">
+                        <img src="img/doggo.png" alt="" class="image">
+                        <div class="overlay">
+                            <div class="name"><h3>Winston</h3></div> 
+                            <div class="description"><p>Winston has a magical talent to steal your food when you're not looking.</p></div>
+                        </div>   
+                    </a>
+                </li>
+                <li class="container">
+                        <a href="img/doggo.png">
+                            <img src="img/doggo.png" alt="" class="image">
+                            <div class="overlay">
+                            <div class="name"><h3>Kylie</h3></div> 
+                            <div class="description"><p>Named after famous pop-diva, Kylie seems to live up to her name.</p></div>                          
+                        </a>
+                    </div>
+                </li>
+                <li class="container">
+                        <a href="img/doggo.png">
+                            <img src="img/doggo.png" alt="" class="image">
+                            <div class="overlay">
+                            <div class="name"><h3>Ozzy</h3></div> 
+                            <div class="description"><p>This guy is going to steal your heart. Don't try to resist</p></div>                          
+                        </a>
+                    </div>
+                </li>
+
+                <li class="container">
+                    <a href="img/doggo.png">
+                        <img src="img/doggo.png" alt="" class="image">
+                        <div class="overlay">
+                            <div class="name"><h3>Elmo</h3></div> 
+                            <div class="description"><p>Loves to swim despite the fact that he's not very good at it.</p></div>
+                        </div>   
+                    </a>
+                </li>
+                <li class="container">
+                    <a href="img/doggo.png">
+                        <img src="img/doggo.png" alt="" class="image">
+                        <div class="overlay">
+                            <div class="name"><h3>Luna</h3></div> 
+                            <div class="description"><p>A total goofball.</p></div>
+                        </div>   
                     </a>
                 </li>
             </ul>
-        </section>
-        <footer>
-            <a href="https://twitter.com/Laavakala"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
-            <a href="https://facebook.com"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
-            <p>&copy; 2018 laavis.</p>
-        </footer>
     </div>
-  </body>
+        <footer>
+            <p>&copy; 2018 laavis</p>
+        </footer>
+    </body>
 </html>
