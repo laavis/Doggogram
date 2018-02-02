@@ -28,6 +28,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    margin: 0;
+}
+
 img {
     max-width: 100%;
 }
@@ -45,6 +49,18 @@ h2 {
     color: #706865;
     margin: 0 auto;
     font-weight: bold;
+}
+
+h4 {
+    margin: 0;
+    font-size: 24px;
+    color: #CDECE9;
+    font-weight: 700;
+}
+
+h5 {
+    margin: 0;
+    color: #706865;
 }
 
 #topline {
@@ -224,7 +240,7 @@ PAGE HOME
 PAGE GALLERY
 ******************************************************/
 .gallery-container * {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 .gallery-container {
@@ -318,6 +334,130 @@ GALLERY NEXT/PREVIOUS BUTTONS
     box-shadow: none;
     transform: translateY(3px);
 }
+
+
+/*****************************************************
+PAGE FORUM
+******************************************************/
+#forum-wrapper {
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.forum-container {
+    width: 100%;
+    border-radius: 6px;
+    overflow: hidden;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+
+.forum-container > div {
+    font-size: 14px;
+    text-align: left;
+    color: #A69B97;
+}
+
+.category, .info-header {
+    background-color: #4DB6AC;
+    height: 80px;
+}
+
+.category h4, .info-header h4 {
+    margin-left: 2%;
+    line-height: 80px;
+}
+
+.title h4 {
+    color: #706865;
+    font-size: 16px;
+}
+
+.sorting {
+    font-size: 16px;
+    background-color: #00867d;
+    height: 45px;
+    color: #fff;
+    display: grid;
+    padding: 0 2% 0 3%;
+    text-align: center;
+    line-height: 45px;
+    grid-column-gap: 2%;
+    grid-template-columns: 65% 7% 7% 15%;
+    
+}  
+
+.align-left p {
+    text-align: left;
+}
+
+
+.content {
+    background-color: #fff;
+}
+
+.content .row, .info .row {
+    display: flex;
+    height: 71px;
+    padding: 0 2% 0 3%;
+    box-sizing: border-box;
+}
+
+.content > div{
+    font-size: 14px;
+    text-align: left;
+    color: #A69B97;
+    border-bottom: 1px solid rgb(206, 206, 206); 
+}
+
+.content > div:last-child {
+    border-bottom: none;
+}
+
+.content .title {
+    flex: 1;
+    padding: 1% 0;
+}
+
+.content .align-center {
+    width: 7%;
+    margin: 0 0 0 2%;
+}
+
+.content .last {
+    margin: 0 0 0 2%;
+    width: 15%;
+    padding: 1% 0;
+}
+
+.content .last a {
+    font-weight: 700;
+    color: #FE6163;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+.content img {
+    float:left;
+    padding: 5px 90px 0 10px;
+}
+
+.align-center p {
+    text-align: center;
+}
+
+.row .align-center p {
+    line-height: 71px;
+}
+
+.info {
+    background-color: #fff;
+    height: 100px;
+}
+
 /*****************************************************
 COLORS
 ******************************************************/
