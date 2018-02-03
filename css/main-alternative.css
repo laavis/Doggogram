@@ -24,6 +24,10 @@ body {
     background-color: #EFEBE9;
 }
 
+nav li{
+    font-family: 'Nunito', sans-serif;
+}
+
 a {
     text-decoration: none;
 }
@@ -199,7 +203,7 @@ PAGE HOME
     width: 450px;
 }
 
-.feature-container {
+#feature-container {
     margin: 0 auto;
     width: 60%;
     display: grid;
@@ -207,12 +211,12 @@ PAGE HOME
     grid-column-gap: 7em;
 }
 
-.feature-container > div {
+#feature-container > div {
     padding: 3em 1em 1em 1em;
 
 }
 
-.feature-container h3 {
+#feature-container h3 {
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
     text-align: center;
@@ -222,7 +226,7 @@ PAGE HOME
     margin: 40px 0 5px 0;
 }
 
-.feature-container p {
+#feature-container p {
     color: white;
     text-align: center;
     font-size: 1.5em;
@@ -231,7 +235,7 @@ PAGE HOME
     margin: 0;
 }
 
-.feature-container img {
+#feature-container img {
     display: block;
     margin: 0 auto;
 }
@@ -388,6 +392,11 @@ PAGE FORUM
     
 }  
 
+.sorting p {
+    font-size: 1.2em;
+    color: #CDECE9;
+}
+
 .align-left p {
     text-align: left;
 }
@@ -400,12 +409,13 @@ PAGE FORUM
 .content .row, .info .row {
     display: flex;
     height: 71px;
-    padding: 0 2% 0 3%;
+    align-items: center;
+    padding: 1% 2% 1% 3%;
     box-sizing: border-box;
 }
 
 .content > div{
-    font-size: 14px;
+    font-size: 1em;
     text-align: left;
     color: #A69B97;
     border-bottom: 1px solid rgb(206, 206, 206); 
@@ -417,7 +427,6 @@ PAGE FORUM
 
 .content .title {
     flex: 1;
-    padding: 1% 0;
 }
 
 .content .align-center {
@@ -428,7 +437,6 @@ PAGE FORUM
 .content .last {
     margin: 0 0 0 2%;
     width: 15%;
-    padding: 1% 0;
 }
 
 .content .last a {
