@@ -180,22 +180,24 @@ footer p {
     text-align: center;
 }
 
+
+
 /*****************************************************
 PAGE HOME
 ******************************************************/
-#slogan {
-    padding: 0 0 100px 0;
+.slogan {
+    padding: 0 0 80px 0;
     width: 100%;
     background-color: #EFEBE9;
 }
 
-#slogan h2 {
+.slogan h2 {
     text-align: center;
     font-size: 3.5em;
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
 }
 
-#slogan p {
+#slogan-desc {
     margin: 10px auto;
     text-align: center;
     font-size: 2em;
@@ -240,6 +242,128 @@ PAGE HOME
     margin: 0 auto;
 }
 
+/***  SIGN UP FORM POP UP  ***/
+
+.form-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    visibility: hidden;
+    transition: opacity 500ms;
+    opacity: 0;
+}
+
+.form-overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.form {
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #FE6163;
+    border-radius: 8px;
+    width: 30%;
+    position: relative;
+}
+
+.form .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+
+    transition: color 200ms;
+  }
+
+  .form .close:hover {
+    color: #fff;
+  }
+
+  .form .form-content {
+    max-height: 30%;
+    overflow: auto;
+  }
+
+/***  ACTUAL FORM  ***/
+
+.form h3 {
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="time"],
+input[type="date"],
+input[type="datetime"],
+input[type="search"],
+input[type="url"],
+textarea,
+
+select {
+    background: rgba(255,255,255,0.1);
+    font-size: 16px;
+    border: none;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #EFEBE9;
+    color: #8a97a0;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.2) inset;
+    margin-bottom: 30px;
+    border-radius: 5px;
+
+    box-sizing: border-box;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff;
+  }
+
+  label.light {
+    font-weight: 300;
+    display: inline;
+  }
+
+  .number {
+    background-color: #FF9491;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 100%;
+  }
+
 /*****************************************************
 PAGE GALLERY
 ******************************************************/
@@ -255,14 +379,15 @@ PAGE GALLERY
     text-align: center;
     margin: 1em auto;
     padding-bottom: 20px;
-
-
 }
+
 .gallery-container img {
     display: block;
     width: 100%;
     padding: 0 0 60px 0;
 }
+
+
 
 /*****************************************************
 GALLERY HOVER EFFECTS
@@ -310,22 +435,25 @@ GALLERY HOVER EFFECTS
 
 
 /*****************************************************
-GALLERY NEXT/PREVIOUS BUTTONS
+BUTTONS
 ******************************************************/
-#buttons div {
+.button {
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.button div {
+    margin: 0 auto;
     width: 120px;
     background-color: #FE6163;
     text-align: center;
     border-radius: 6px;
-    box-shadow: 0 3px 0 0 rgb(202, 74, 76)
+    box-shadow: 0 3px 0 0 rgb(202, 74, 76);
+    padding: 10px;
 }
-
-#buttons a p {
+.button a {
     color: #fff;
-    font-size: 1.2em;
-    margin: 10px;
 }
-
 #next-button {
     float: right;
 }
@@ -334,9 +462,20 @@ GALLERY NEXT/PREVIOUS BUTTONS
     float: left;
 }
 
-#next-button:active, #previous-button:active  {
+#next-button:active, #previous-button:active, #sign-up:active  {
     box-shadow: none;
     transform: translateY(3px);
+}
+
+#sign-up {
+    background-color: #4DB6AC;
+    box-shadow: 0 3px 0 0 #00867d;
+}
+
+button {
+    padding: 10px;
+    background-color: #4DB6AC;
+    width: 120px;
 }
 
 
@@ -389,8 +528,8 @@ PAGE FORUM
     line-height: 45px;
     grid-column-gap: 2%;
     grid-template-columns: 65% 7% 7% 15%;
-    
-}  
+
+}
 
 .sorting p {
     font-size: 1.2em;
@@ -418,7 +557,7 @@ PAGE FORUM
     font-size: 1em;
     text-align: left;
     color: #A69B97;
-    border-bottom: 1px solid rgb(206, 206, 206); 
+    border-bottom: 1px solid rgb(206, 206, 206);
 }
 
 .content > div:last-child {
