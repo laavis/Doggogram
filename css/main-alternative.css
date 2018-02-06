@@ -13,21 +13,16 @@ body {
     min-height: 100%;
     font-family: 'Nunito', sans-serif;
     font-weight: 200;
-
     box-sizing: border-box;
+    background-color: #EFEBE9;
 }
 .home {
     background-color: #FE6163;
 }
 
-.gallery {
-    background-color: #EFEBE9;
-}
-
-
-
 a {
     text-decoration: none;
+    font-family: 'Nunito', sans-serif;
 }
 
 p {
@@ -38,19 +33,24 @@ img {
     max-width: 100%;
 }
 
+/* Poochband logo */
 h1 {
     font-family: 'Baloo Bhai', cursive;
     font-size: 3.5em;
     font-weight: normal;
-
+    color: #FE6163;
 }
 
 h2 {
-    font-family: 'Nunito', sans-serif;
     font-size: 2em;
     color: #706865;
     margin: 0 auto;
-    font-weight: bold;
+    font-weight: 700;
+}
+
+h3 {
+    color: rgb(205, 236, 233);
+    margin: 0;
 }
 
 h4 {
@@ -129,12 +129,15 @@ nav ul {
 
 nav li {
     display: inline-block;
-    padding: 0 10px;
+    padding: 6px 1.5em;
 }
 
 nav a {
     font-weight: 800;
-    padding: 15px 10px;
+    color: #a69b97;
+    padding: 10px 0;
+    text-decoration: none;
+    position: relative;
 }
 
 nav a:before {
@@ -156,6 +159,17 @@ nav a:hover:before{
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
+}
+
+
+nav a:hover {
+    width: 100%;
+    color: #4DB6AC;
+
+  }
+
+nav a.selected {
+    color: #4DB6AC;
 }
 
 
@@ -197,12 +211,12 @@ PAGE HOME
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
 }
 
-#slogan-desc {
+.slogan-desc {
     margin: 10px auto;
     text-align: center;
     font-size: 2em;
     color: #A69B97;
-    width: 450px;
+    width: 45%;
 }
 
 #feature-container {
@@ -450,9 +464,11 @@ BUTTONS
     box-shadow: 0 3px 0 0 rgb(202, 74, 76);
     padding: 10px;
 }
+
 .button a {
     color: #fff;
 }
+
 #next-button {
     float: right;
 }
@@ -476,9 +492,10 @@ BUTTONS
 button {
     display: block;
     margin: 10px 0 0 0;
+    padding: 20px;
     border: none;
     border-radius: 5px;
-    padding: 20px;
+    color: #fff;
     background-color: #FE6163;
     width: 100%;
 }
@@ -667,35 +684,7 @@ PAGE CREATOR
 /*****************************************************
 COLORS
 ******************************************************/
-/* logo text */
-h1 {
-    color: #FE6163;
-}
 
-h3 {
-    color: rgb(205, 236, 233);
-    margin: 0;
-}
-
-nav a {
-    color: #a69b97;
-    text-decoration: none;
-    position: relative;
-}
-
-nav a nav a:visited {
-    color: #fff;
-}
-
-nav a:hover {
-    width: 100%;
-    color: #4DB6AC;
-
-  }
-
-nav a.selected {
-    color: #4DB6AC;
-}
 
 
 

@@ -38,6 +38,25 @@ HEADER
          padding: 0;
     }
 
+
+
+/*****************************************************
+PAGE HOME
+******************************************************/
+
+#features {
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px 30px;
+}
+
+#feature-container {
+    display: block;
+    width: 100%;
+}
+
+
+
 /*****************************************************
 PAGE GALLERY
 ******************************************************/
@@ -53,6 +72,10 @@ PAGE GALLERY
 /*****************************************************
 HEADER
 ******************************************************/
+    html {
+        width: 100%;
+    }
+
     header {
        background-color: #EFEBE9;
        box-shadow: none;
@@ -88,22 +111,31 @@ HEADER
 PAGE INDEX
 ******************************************************/
 
-    #slogan {
-        padding: 60px 0;
+    .slogan {
+        padding: 0 0 40px 0;
     }
 
-    #slogan h2 {
+    .slogan h2 {
         font-size: 2.5em;
     }
 
-    #slogan p {
+    .slogan p {
         font-size: 1.5em;
+        text-align: center;
+    }
+
+    .slogan-desc {
+        width: 80%;
+    }
+
+    .button p {
+        font-size: 1em;
     }
 
     #features {
         width: 50%;
         margin: 0 auto;
-        padding: 30px 30px;
+        padding: 40px 30px;
     }
 
     #feature-container {
@@ -130,6 +162,12 @@ PAGE INDEX
         width: 30%;
     }
 
+/***  MOBILE SIGN UP FORM  ***/
+
+    .form {
+        width: 100%;
+        padding: 20px 0;
+    }
 
 
 /*****************************************************
