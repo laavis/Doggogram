@@ -22,20 +22,26 @@ HEADER
     
     #logo h1 {
         font-size: 3em;
-        margin: 25px 0 0 40px;
+        margin: 0 0 0 20px;
     }
 
     #logo-image {
         width: 2.7em;
-        margin-top: 40px;
+        margin-top: 15px;
     }
 
     nav {
         width: 40%;
-        padding: 15px 0;
+        margin: -110px 0 0 0;
     }
+
+
      nav ul {
          padding: 0;
+    }
+
+    nav li {
+        padding: 0 0.2em;
     }
 
 
@@ -44,16 +50,16 @@ HEADER
 PAGE HOME
 ******************************************************/
 
-#features {
-    width: 50%;
-    margin: 0 auto;
-    padding: 30px 30px;
-}
+    #features {
+        width: 50%;
+        margin: 0 auto;
+        padding: 30px 30px;
+    }
 
-#feature-container {
-    display: block;
-    width: 100%;
-}
+    #feature-container {
+        display: block;
+        width: 100%;
+    }
 
 
 
@@ -105,6 +111,12 @@ HEADER
         margin-top: 18px;
         width: 1.7em;
         content: url("../img/logo-mobile.svg");
+    }
+
+    footer {
+        bottom: unset;
+        margin-top: 40px;
+        position: relative;
     }
 
 /*****************************************************
@@ -167,6 +179,16 @@ PAGE INDEX
     .form {
         width: 100%;
         padding: 20px 0;
+        margin: 0 auto;
+        border-radius: 0px;
+    }
+
+    .form h3 {
+        font-size: 1.5em;
+    }
+
+    legend {
+        font-size: 1.2em;
     }
 
 
@@ -176,6 +198,7 @@ PAGE GALLERY
 
     .gallery-container {
         grid-template-columns: 1fr 1fr;
+        width: 100%;
     }
 
     .item:hover .cover {

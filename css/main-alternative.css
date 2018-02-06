@@ -85,8 +85,8 @@ HEADING
 ******************************************************/
 header {
     position: relative;
-    padding: 0 0 70px 0;
-    height: 127px;
+    padding: 0 0 20px 0;
+    height: 104px;
     background-color: #EFEBE9;
 
 }
@@ -116,8 +116,7 @@ nav {
     background: none;
     float: right;
     text-align: center;
-    padding: 10px 0;
-    margin: -177px 0 0 0;
+    margin: -100px 0 0 0;
     z-index: 200;
 }
 
@@ -129,7 +128,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    padding: 6px 1.5em;
+    padding: 6px 10px;
 }
 
 nav a {
@@ -200,7 +199,7 @@ footer p {
 PAGE HOME
 ******************************************************/
 .slogan {
-    padding: 0 0 80px 0;
+    padding: 0 0 100px 0;
     width: 100%;
     background-color: #EFEBE9;
 }
@@ -221,6 +220,7 @@ PAGE HOME
 
 #feature-container {
     margin: 0 auto;
+    margin-top: 50px;
     width: 60%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -233,7 +233,6 @@ PAGE HOME
 }
 
 #feature-container h3 {
-    font-family: 'Nunito', sans-serif;
     font-weight: 700;
     text-align: center;
     font-size: 1.7em;
@@ -286,18 +285,17 @@ PAGE HOME
 
 .form .close {
     position: absolute;
-    top: 20px;
+    top: 10px;
     right: 30px;
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
-    color: #333;
-
+    color: #fff;
     transition: color 200ms;
   }
 
   .form .close:hover {
-    color: #fff;
+    color: #FE6163;
   }
 
   .form .form-content {
