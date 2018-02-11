@@ -11,6 +11,10 @@
     .sorting p {
         font-size: 1em;
     }
+
+    #feature-container {
+        grid-column-gap: 5em;
+    }
 }
 
 @media screen and (max-width: 854px) {
@@ -51,16 +55,12 @@ PAGE HOME
 ******************************************************/
 
     #features {
-        width: 50%;
         margin: 0 auto;
-        padding: 30px 30px;
     }
 
     #feature-container {
         display: block;
-        width: 100%;
     }
-
 
 
 /*****************************************************
@@ -144,16 +144,6 @@ PAGE INDEX
         font-size: 1em;
     }
 
-    #features {
-        width: 50%;
-        margin: 0 auto;
-        padding: 40px 30px;
-    }
-
-    #feature-container {
-        display: block;
-        width: 100%;
-    }
 
     #feature-container > div {
         margin: 0 0 60px 0;
@@ -191,6 +181,11 @@ PAGE INDEX
         font-size: 1.2em;
     }
 
+    button {
+        width: 60%;
+        margin: 10px auto;
+    }
+
 
 /*****************************************************
 PAGE GALLERY
@@ -214,16 +209,24 @@ PAGE FORUM
     max-width: 95%;
 }
 
+.category {
+    height: 60px;
+}
+
+.category h4 {
+    line-height: 60px;
+}
+
 .sorting {
     grid-template-columns: 50% 10% 10% 24%;
     padding: 0 2%;   
 }
 
-.content .row {
+ .row {
     padding: 1% 2%;
 }
 
-.content .row > div{
+.row > div{
     margin: 0;
 }
 
@@ -260,6 +263,15 @@ PAGE CREATOR
 .line {
     display: none;
 }
+
+.creator-container h2 {
+    font-size: 1.5em;
+}
+
+#shiba {
+    margin: 40px 0;
+}
+
 /*****************************************************
 MOBILE DEVICES NAV
 ******************************************************/
