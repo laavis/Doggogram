@@ -205,72 +205,72 @@ PAGE GALLERY
 /*****************************************************
 PAGE FORUM
 ******************************************************/
-#forum-wrapper {
-    max-width: 95%;
-}
+    #forum-wrapper {
+        max-width: 95%;
+    }
 
-.category {
-    height: 60px;
-}
+    .category {
+        height: 60px;
+    }
 
-.category h4 {
-    line-height: 60px;
-}
+    .category h4 {
+        line-height: 60px;
+    }
 
-.sorting {
-    grid-template-columns: 50% 10% 10% 24%;
-    padding: 0 2%;   
-}
+    .sorting {
+        grid-template-columns: 50% 10% 10% 24%;
+        padding: 0 2%;   
+    }
 
- .row {
-    padding: 1% 2%;
-}
+    .row {
+        padding: 1% 2%;
+    }
 
-.row > div{
-    margin: 0;
-}
+    .row > div{
+        margin: 0;
+    }
 
-.content .title {
-    flex: none;
-    width: 52%;
-}
+    .content .title {
+        flex: none;
+        width: 52%;
+    }
 
-.content .align-center {
-    width: 12%;
-}
+    .content .align-center {
+        width: 12%;
+    }
 
-.content .last {
-    width: 24%
-}
+    .content .last {
+        width: 24%
+    }
 
-.title p {
-    display: none;
-}
+    .title p {
+        display: none;
+    }
 
-.content img {
-    display: none;
-}
+    .content img {
+        display: none;
+    }
 
 
 
 /*****************************************************
 PAGE CREATOR
 ******************************************************/
-.steps legend {
-    flex: 1;
-}
+    .steps legend {
+        flex: 1;
+    }
 
-.line {
-    display: none;
-}
+    .line {
+        display: none;
+    }
 
-.creator-container h2 {
-    font-size: 1.5em;
-}
+    .creator-container h2 {
+        font-size: 1.5em;
+    }
 
-#shiba {
-    margin: 40px 0;
-}
+    #shiba {
+        margin: 40px 0;
+    }
 
 /*****************************************************
 MOBILE DEVICES NAV
